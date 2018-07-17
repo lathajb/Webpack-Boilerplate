@@ -17,5 +17,9 @@ Official website : www.webpackjs.org
 
 Dependencies , Dev dependencies , Global
 
+npm i loadash
+
+package-lock.json -- > To genereate exact dev dependency graph
+
 
 
