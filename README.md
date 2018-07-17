@@ -1,4 +1,8 @@
-1. module bundler , network latency , tree shaking
+Ref : Javascript design pattern  - addy osmani 
+
+common js, AMD, require js, Common js + AMD 
+
+Webpack is a module bundler , to resolve network latency , tree shaking
 
 npm init -y
 
@@ -20,6 +24,24 @@ Dependencies , Dev dependencies , Global
 npm i loadash
 
 package-lock.json -- > To genereate exact dev dependency graph
+
+
+cmd : node (interpreter) -->
+module -->
+require -->
+
+
+Module pattern :
+    (function(){
+        return  {
+
+        }
+    })()
+
+
+To run webpack  -- webpack
+
+
 
 
 
