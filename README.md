@@ -39,9 +39,28 @@ Module pattern :
     })()
 
 
-To run webpack  -- webpack
+To run webpack  -- ./node_modules/webpack/bin/webpack
+
+./node_modules/webpack-cli/bin/webpack
+
+D:\Webpack-boiler-plate\node_modules/webpack-cli/bin/cli.js
 
 
 
+-- To install npm i html-webpack-plugin
+
+-- Install webpack dev server 
+
+-- npm  i babel babel-loader babel-core --save -d
+
+Also set presets - for babel
 
 
+Presets : npm i babel-preset-env --save -dev
+
+
+To enable debugging in browser : configure in webpack.config.js -->
+
+devtool: "cheap-eval-source-map",
+
+"serve": "webpack-dev-server --open" -- to open browser also
